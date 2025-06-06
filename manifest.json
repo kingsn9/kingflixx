@@ -1,0 +1,24 @@
+{
+  "id": "org.kingflix.addon",
+  "version": "1.0.0",
+  "name": "KINGFLIX",
+  "description": "Streaming gratuito de filmes, séries e animes dublados.",
+  "resources": ["catalog", "stream", "meta"],
+  "types": ["movie", "series"],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "kingflix_movies",
+      "name": "Filmes KINGFLIX"
+    },
+    {
+      "type": "series",
+      "id": "kingflix_series",
+      "name": "Séries KINGFLIX"
+    }
+  ],
+  "idPrefixes": ["tt"],
+  "behaviorHints": {
+    "adult": false
+  }
+}
